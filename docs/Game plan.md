@@ -17,7 +17,19 @@
 
 ## Models
 
+Standard ones:
 
+* Logistic Regression -> PolynomialFeatures ->  RBFSampler
+*  SGDClassifier with Perceptron -> SVM -> RBFSampler 
+* `from sklearn.naive_bayes import GaussianNB, MultinomialNB`
+
+Ensembles:
+
+* RandomForestClassifier
+* ExtraTreesClassifier
+
+* VotingClassifier between 3 in the standard; try with soft and hard voting. Correlate the predictions of the base classifiers
+* 
 
 ## Conclusions
 
