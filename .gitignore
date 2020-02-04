@@ -1,3 +1,5 @@
+*.csv
+
 MANIFEST
 build
 dist
